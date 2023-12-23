@@ -1,6 +1,7 @@
 <x-layouts.main title="Products">
     <div class="relative overflow-x-auto">
-        <section class="flex items-end justify-end">
+        <section class="flex items-center justify-end gap-3">
+            <span>Farell Sarumaha</span>
             <a href="{{ route('product.create') }}" class="border px-4 py-2">Create</a>
         </section>
     </div>
